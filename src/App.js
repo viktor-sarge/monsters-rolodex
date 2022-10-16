@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import CardList from './components/card-list/card-list.component';
 import './App.css';
 import {Component} from 'react';
 
@@ -36,9 +36,9 @@ class App extends Component {
 
     return (
     <div className="App"> 
+      <h1>Monsters rolodex</h1>
       <input className='search-box' type='search' placeholder='Monster name' onChange={onSearchChange} />
-      {filteredMonsters.map((monster)=>{
-        return <div key={monster.id}><h1>{monster.name}</h1></div>})}
+      <CardList monsters={filteredMonsters} />
     </div>
   ); 
 
