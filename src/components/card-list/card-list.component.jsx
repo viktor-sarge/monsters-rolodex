@@ -5,9 +5,15 @@ class CardList extends Component {
 		return (
 			<div>
 				{this.props.monsters.map((monster) => {
+					const { id, name, email } = monster;
 					return (
-						<div key={monster.id}>
-							<h2>{monster.name}</h2>
+						<div key={id}>
+							<img
+								src={`https://robohash.org/${id}?set=set2`}
+								alt={`monster named ${name}`}
+							/>
+							<h2>{name}</h2>
+							<p>{email}</p>
 						</div>
 					);
 				})}
