@@ -12,4 +12,10 @@ body {
 		rgba(0, 128, 128, 1) 100%
 	);
 	text-align: center;
+	font-family: 'Silkscreen';
+}
+
+.app-title {
+	color: white;
+	font-size: 4em;
 }
