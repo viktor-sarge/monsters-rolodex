@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Monsters Rolodex
+
+A small demo project in React to try out the differences between class components, functional componenents (and using the bare libraries). It's a part of the course [Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)](https://zerotomastery.io/courses/learn-react/). This is my own implementation though and may differ from the official repo. 
+
+The course itself is pretty good if you're a well rounded frontend developer looking to take a deep dive in learning React. I've been using React for a few years after 15 minutes of introduction so I'm doing the course as a chance to start over from scratch and learn it right. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
